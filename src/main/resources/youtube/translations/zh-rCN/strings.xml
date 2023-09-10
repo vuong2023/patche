@@ -17,7 +17,7 @@
     <string name="revanced_change_homepage_title">更改主页为订阅内容</string>
     <string name="revanced_comments_title">评论</string>
     <string name="revanced_copy_video_timestamp_success">时间戳已复制到剪贴板</string>
-    <string name="revanced_custom_filter_strings_summary">按行分隔的名称筛选组件</string>
+    <string name="revanced_custom_filter_strings_summary">Filter component names by line-seperated</string>
     <string name="revanced_custom_filter_strings_title">编辑自定义筛选</string>
     <string name="revanced_custom_filter_summary_off">自定义筛选已禁用</string>
     <string name="revanced_custom_filter_summary_on">自定义筛选已启用</string>
@@ -501,7 +501,7 @@ Known issue: Autoplay does not work"</string>
     <string name="revanced_hide_timed_reactions_title">时间跳转</string>
     <string name="revanced_hide_reminder_button_summary_off">Notify me buttons are shown</string>
     <string name="revanced_hide_reminder_button_summary_on">Notify me buttons are hidden</string>
-    <string name="revanced_hide_reminder_button_title">Hide notify me button</string>
+    <string name="revanced_hide_reminder_button_title">Hide notify me button in feed</string>
     <string name="revanced_hide_time_stamp_summary_off">时间戳已显示</string>
     <string name="revanced_hide_time_stamp_summary_on">时间戳已隐藏</string>
     <string name="revanced_hide_time_stamp_title">时间戳</string>

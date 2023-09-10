@@ -17,7 +17,7 @@
     <string name="revanced_change_homepage_title">Cambiar página de inicio a suscripciones</string>
     <string name="revanced_comments_title">Comentarios</string>
     <string name="revanced_copy_video_timestamp_success">Marca de tiempo copiada en el portapapeles</string>
-    <string name="revanced_custom_filter_strings_summary">Filtrar los componentes por nombres separados por líneas</string>
+    <string name="revanced_custom_filter_strings_summary">Filter component names by line-seperated</string>
     <string name="revanced_custom_filter_strings_title">Editar filtro personalizado</string>
     <string name="revanced_custom_filter_summary_off">El filtro personalizado está desactivado</string>
     <string name="revanced_custom_filter_summary_on">El filtro personalizado está activado</string>
@@ -528,13 +528,13 @@ Solo disponible en YouTube v18.24.37+"</string>
     <string name="revanced_whitelisting_remove_failed" formatted="false">No se pudo eliminar el canal %s de la lista blanca de %s</string>
     <string name="revanced_whitelisting_settings_summary">Verifique o elimine la lista de canales agregados a la lista blanca</string>
     <string name="revanced_whitelisting_settings_title">Configuración de la lista blanca</string>
-    <string name="revanced_whitelisting_speed">Playback Speed</string>
+    <string name="revanced_whitelisting_speed">Velocidad de reproducción</string>
     <string name="revanced_whitelisting_speed_button">Velocidad</string>
     <string name="revanced_whitelisting_sponsorblock">SponsorBlock</string>
     <string name="revanced_whitelisting_sponsorblock_button">SB</string>
     <string name="revanced_whitelisting_title">Lista blanca de canales</string>
-    <string name="revanced_whitelist_api_key_title">YouTube API Key</string>
-    <string name="revanced_whitelist_api_key_summary">YouTube API Key v3 used by whitelist feature</string>
+    <string name="revanced_whitelist_api_key_title">Clave del API de YouTube</string>
+    <string name="revanced_whitelist_api_key_summary">Clave API de YouTube v3 usada por la función de lista blanca</string>
     <string name="revanced_hide_view_products_summary_off">El banner de ver productos está visible</string>
     <string name="revanced_hide_view_products_summary_on">El banner de ver productos está oculto</string>
     <string name="revanced_hide_view_products_title">Ocultar banner de ver productos</string>
@@ -624,7 +624,7 @@ Toque aquí para obtener más información.</string>
     <string name="revanced_show_fullscreen_title_title">Mostrar título en pantalla completa</string>
     <string name="revanced_alt_thumbnails_preference_screen_title">Miniaturas alternativas</string>
     <string name="revanced_alt_thumbnail_title">Habilitar miniaturas alternativas</string>
-    <string name="revanced_alt_thumbnail_summary_on">YouTube thumbnails replaced with alternative ones</string>
+    <string name="revanced_alt_thumbnail_summary_on">Miniaturas de YouTube reemplazadas por unas alternativas</string>
     <string name="revanced_alt_thumbnail_summary_off">Se muestran las miniaturas originales de YouTube</string>
     <string name="revanced_alt_thumbnail_type_title">Tiempo de video para tomar la imagen fija de</string>
     <string name="revanced_alt_thumbnail_type_entry_1">Comienzo del vídeo</string>
@@ -657,14 +657,14 @@ Si más tarde se desactiva, la antigua interfaz de usuario puede permanecer hast
  - La marca de agua del canal siempre está oculta
  - Es posible que la descarga de videos no funcione
  - Las tarjetas de pantalla final siempre están ocultas"</string>
-    <string name="revanced_spoof_player_parameter_type_summary_on">"Parámetros del jugador del modo incógnito
+    <string name="revanced_spoof_player_parameter_type_summary_on">"Parámetros del reproductor del modo incógnito
 
  Problemas conocidos
+ - Las miniaturas de la barra de búsqueda están ocultas
  - Es posible que el modo ambiente no funcione
- - El clip no se puede reproducir normalmente
- - Es posible que la descarga de videos no funcione
- - La superposición de la tira de película siempre está oculta
- - Las miniaturas de la barra de búsqueda están ocultas"</string>
+ - El clip no se puede reproducir normalmente.
+ - Es posible que la descarga de vídeos no funcione
+ - La superposición de tiras de película siempre está oculta"</string>
     <string name="revanced_spoof_player_parameter_type_title">Tipo de parámetro de jugador falso</string>
     <string name="revanced_spoof_player_parameter_summary">Los parámetros del reproductor se modifican para evitar problemas de reproducción
 

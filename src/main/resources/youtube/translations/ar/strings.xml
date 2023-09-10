@@ -17,7 +17,7 @@
     <string name="revanced_change_homepage_title">تغيير الصفحة الرئيسية إلى موجز الاشتراكات</string>
     <string name="revanced_comments_title">التعليقات</string>
     <string name="revanced_copy_video_timestamp_success">تم نسخ الطابع الزمني إلى الحافظة</string>
-    <string name="revanced_custom_filter_strings_summary">تصفية المكونات بأسماء مفصولة بأسطر</string>
+    <string name="revanced_custom_filter_strings_summary">تصفية أسماء المكونات عن طريق مفصولة بأسطر</string>
     <string name="revanced_custom_filter_strings_title">تعديل الفلتر المخصص</string>
     <string name="revanced_custom_filter_summary_off">تم تعطيل الفلتر المخصص</string>
     <string name="revanced_custom_filter_summary_on">تم تمكين الفلتر المخصص</string>
@@ -502,7 +502,7 @@
     <string name="revanced_hide_timed_reactions_title">إخفاء ردود الفعل المؤقتة</string>
     <string name="revanced_hide_reminder_button_summary_off">يتم عرض زر تنبيهي</string>
     <string name="revanced_hide_reminder_button_summary_on">تم إخفاء زر تنبيهي</string>
-    <string name="revanced_hide_reminder_button_title">إخفاء زر تنبيهي</string>
+    <string name="revanced_hide_reminder_button_title">إخفاء زر تنبيهي في الموجز</string>
     <string name="revanced_hide_time_stamp_summary_off">يتم عرض طابع الوقت</string>
     <string name="revanced_hide_time_stamp_summary_on">تم إخفاء طابع الوقت</string>
     <string name="revanced_hide_time_stamp_title">إخفاء طابع الوقت</string>

@@ -3,7 +3,6 @@ package app.revanced.patches.youtube.utils.microg.bytecode.patch
 import app.revanced.patcher.data.BytecodeContext
 import app.revanced.patcher.patch.BytecodePatch
 import app.revanced.patcher.patch.PatchException
-
 import app.revanced.patcher.patch.annotations.DependsOn
 import app.revanced.patches.shared.patch.packagename.PackageNamePatch
 import app.revanced.patches.youtube.utils.fix.clientspoof.patch.ClientSpoofPatch
@@ -65,6 +64,7 @@ class MicroGBytecodePatch : BytecodePatch(
             )
         )
 
-        context.injectInit("MicroGPatch", "checkAvailability")
+        context.injectInit("MicroGPatch", "checkAvailability", true)
+
     }
 }

@@ -17,7 +17,7 @@
     <string name="revanced_change_homepage_title">Zmień stronę główną na stronę subskrypcji</string>
     <string name="revanced_comments_title">Komentarze</string>
     <string name="revanced_copy_video_timestamp_success">Link wideo z czasem został skopiowany do schowka</string>
-    <string name="revanced_custom_filter_strings_summary">Filtruj komponenty według nazw oddzielonych liniami</string>
+    <string name="revanced_custom_filter_strings_summary">Filtruj nazwy komponentów, oddzielając je liniami</string>
     <string name="revanced_custom_filter_strings_title">Edytuj własny filtr</string>
     <string name="revanced_custom_filter_summary_off">Wyłączony</string>
     <string name="revanced_custom_filter_summary_on">Włączony</string>
@@ -187,7 +187,7 @@
     <string name="revanced_hide_action_buttons_title">Przyciski akcji</string>
     <string name="revanced_hide_button_create_clip_summary_off">Widoczny</string>
     <string name="revanced_hide_button_create_clip_summary_on">Ukryty</string>
-    <string name="revanced_hide_button_create_clip_title">Przycisk do tworzenia klipów</string>
+    <string name="revanced_hide_button_create_clip_title">Przycisk od tworzenia klipów</string>
     <string name="revanced_hide_button_dislike_summary_off">Widoczny</string>
     <string name="revanced_hide_button_dislike_summary_on">Ukryty</string>
     <string name="revanced_hide_button_dislike_title">Przycisk od łapkowania w dół</string>
@@ -202,7 +202,7 @@
     <string name="revanced_hide_button_live_chat_title">Przycisk do czatu na żywo</string>
     <string name="revanced_hide_button_playlist_summary_off">Widoczny</string>
     <string name="revanced_hide_button_playlist_summary_on">Ukryty</string>
-    <string name="revanced_hide_button_playlist_title">Przycisk do dodawania do playlist</string>
+    <string name="revanced_hide_button_playlist_title">Przycisk od dodawania do playlist</string>
     <string name="revanced_hide_button_remix_summary_off">Widoczny</string>
     <string name="revanced_hide_button_remix_summary_on">Ukryty</string>
     <string name="revanced_hide_button_remix_title">Przycisk od remiksów</string>
@@ -220,7 +220,7 @@
     <string name="revanced_hide_button_shop_title">Przycisk do sklepu</string>
     <string name="revanced_hide_button_thanks_summary_off">Widoczny</string>
     <string name="revanced_hide_button_thanks_summary_on">Ukryty</string>
-    <string name="revanced_hide_button_thanks_title">Przycisk do dziękowania</string>
+    <string name="revanced_hide_button_thanks_title">Przycisk od dziękowania</string>
     <string name="revanced_hide_captions_button_summary_off">Widoczny</string>
     <string name="revanced_hide_captions_button_summary_on">Ukryty</string>
     <string name="revanced_hide_captions_button_title">Przycisk od napisów</string>
@@ -264,7 +264,7 @@
     <string name="revanced_hide_community_posts_subscriptions_title">Posty na stronie subskrypcji</string>
     <string name="revanced_hide_create_button_summary_off">Widoczny</string>
     <string name="revanced_hide_create_button_summary_on">Ukryty</string>
-    <string name="revanced_hide_create_button_title">Przycisk do przesyłania</string>
+    <string name="revanced_hide_create_button_title">Przycisk od przesyłania</string>
     <string name="revanced_hide_crowdfunding_box_summary_off">Widoczne</string>
     <string name="revanced_hide_crowdfunding_box_summary_on">Ukryte</string>
     <string name="revanced_hide_crowdfunding_box_title">Ramki ze zbiórkami</string>
@@ -331,7 +331,7 @@
     <string name="revanced_hide_info_panel_title">Panele z informacjami</string>
     <string name="revanced_hide_join_button_summary_off">Widoczny</string>
     <string name="revanced_hide_join_button_summary_on">Ukryty</string>
-    <string name="revanced_hide_join_button_title">Przycisk do sponsorowania</string>
+    <string name="revanced_hide_join_button_title">Przycisk od sponsorowania</string>
     <string name="revanced_hide_latest_posts_summary_off">Widoczne</string>
     <string name="revanced_hide_latest_posts_summary_on">Ukryte</string>
     <string name="revanced_hide_latest_posts_title">Najnowsze posty</string>
@@ -403,7 +403,7 @@
     <string name="revanced_hide_player_flyout_panel_more_info_title">Menu do większej ilości informacji</string>
     <string name="revanced_hide_player_flyout_panel_report_summary_off">Widoczne</string>
     <string name="revanced_hide_player_flyout_panel_report_summary_on">Ukryte</string>
-    <string name="revanced_hide_player_flyout_panel_report_title">Menu do zgłaszania</string>
+    <string name="revanced_hide_player_flyout_panel_report_title">Menu od zgłaszania</string>
     <string name="revanced_hide_player_flyout_panel_speed_summary_off">Widoczne</string>
     <string name="revanced_hide_player_flyout_panel_speed_summary_on">Ukryte</string>
     <string name="revanced_hide_player_flyout_panel_speed_title">Menu od prędkości</string>
@@ -658,11 +658,11 @@ Znane problemy
     <string name="revanced_spoof_player_parameter_type_summary_on">"Parametry trybu incognito
 
 Znane problemy
+- Podgląd wideo nie działa
 - Oświetlenie kinowe może nie działać
 - Nie można zobaczyć klipów normalnie
-- Pobieranie wideo może nie działać
-- Precyzyjniejsze przesuwanie po pasku nie działa
-- Podgląd wideo w pasku wideo nie działa"</string>
+- Pobieranie wideo może nie działać 
+- Precyzyjniejszy podgląd wideo nie działa"</string>
     <string name="revanced_spoof_player_parameter_type_title">Oszukane parametry</string>
     <string name="revanced_spoof_player_parameter_summary">Oszukuje parametry, by zapobiec problemom z odtwarzaniem</string>
     <string name="revanced_spoof_player_parameter_title">Oszukaj parametry</string>
@@ -683,7 +683,7 @@ Znane problemy
     <string name="sb_enable_sb">SponsorBlock</string>
     <string name="sb_enable_sb_sum">SponsorBlock to system pomijania denerwujących fragmentów w wideo na YouTube</string>
     <string name="sb_appearance_category">Wygląd</string>
-    <string name="sb_enable_voting">Przycisk do głosowania</string>
+    <string name="sb_enable_voting">Przycisk od głosowania</string>
     <string name="sb_enable_voting_sum_on">Widoczny</string>
     <string name="sb_enable_voting_sum_off">Ukryty</string>
     <string name="sb_enable_compact_skip_button">Styl przycisku od pomijania</string>

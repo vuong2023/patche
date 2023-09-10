@@ -17,7 +17,7 @@
     <string name="revanced_change_homepage_title">Schimba pagina de start la abonamente</string>
     <string name="revanced_comments_title">Comentarii</string>
     <string name="revanced_copy_video_timestamp_success">Timbru timp copiat în memorie</string>
-    <string name="revanced_custom_filter_strings_summary">Filtrează componentele după nume separate de linie</string>
+    <string name="revanced_custom_filter_strings_summary">Filter component names by line-seperated</string>
     <string name="revanced_custom_filter_strings_title">Editați filtrul personalizat</string>
     <string name="revanced_custom_filter_summary_off">Filtrul personalizat este dezactivat</string>
     <string name="revanced_custom_filter_summary_on">Filtrul personalizat este activat</string>

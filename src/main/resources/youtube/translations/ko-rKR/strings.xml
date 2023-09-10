@@ -17,7 +17,7 @@
     <string name="revanced_change_homepage_title">메인 페이지 변경하기</string>
     <string name="revanced_comments_title">댓글</string>
     <string name="revanced_copy_video_timestamp_success">타임스탬프가 클립보드에 저장되었습니다.</string>
-    <string name="revanced_custom_filter_strings_summary">구성요소의 이름을 쉼표로 구분하여 필터링합니다.</string>
+    <string name="revanced_custom_filter_strings_summary">구성요소의 이름을 줄바꿈으로 구분하여 필터링합니다.</string>
     <string name="revanced_custom_filter_strings_title">사용자 정의 필터 편집하기</string>
     <string name="revanced_custom_filter_summary_off">사용자 정의 필터를 비활성화합니다.</string>
     <string name="revanced_custom_filter_summary_on">사용자 정의 필터를 활성화합니다.</string>
@@ -89,14 +89,14 @@
     <string name="revanced_enable_new_splash_animation_summary_off">새로운 스플래시 애니메이션을 비활성화합니다.</string>
     <string name="revanced_enable_new_splash_animation_summary_on">새로운 스플래시 애니메이션을 활성화합니다.</string>
     <string name="revanced_enable_new_splash_animation_title">새로운 스플래시 애니메이션 활성화하기</string>
-    <string name="revanced_enable_new_thumbnail_preview_summary_off">새로운 썸네일 미리보기를 비활성화합니다.</string>
-    <string name="revanced_enable_new_thumbnail_preview_summary_on">새로운 썸네일 미리보기를 활성화합니다.</string>
-    <string name="revanced_enable_new_thumbnail_preview_title">새로운 썸네일 미리보기 활성화하기</string>
+    <string name="revanced_enable_new_thumbnail_preview_summary_off">새로운 미리보기 썸네일을 비활성화합니다.</string>
+    <string name="revanced_enable_new_thumbnail_preview_summary_on">새로운 미리보기 썸네일을 활성화합니다.</string>
+    <string name="revanced_enable_new_thumbnail_preview_title">새로운 미리보기 썸네일 활성화하기</string>
     <string name="revanced_enable_opus_codec_summary">MP4A 오디오 코덱 대신 Opus 오디오 코덱을 활성화합니다.</string>
     <string name="revanced_enable_opus_codec_title">Opus 코덱 활성화하기</string>
-    <string name="revanced_enable_old_quality_layout_summary_off">새로운 스타일의 동영상 품질 설정이 노출됩니다.</string>
-    <string name="revanced_enable_old_quality_layout_summary_on">이전 스타일의 동영상 품질 설정이 노출됩니다.</string>
-    <string name="revanced_enable_old_quality_layout_title">이전 스타일의 동영상 품질 설정 활성화하기</string>
+    <string name="revanced_enable_old_quality_layout_summary_off">새로운 동영상 화질 설정이 노출됩니다.</string>
+    <string name="revanced_enable_old_quality_layout_summary_on">이전 동영상 화질 설정이 노출됩니다.</string>
+    <string name="revanced_enable_old_quality_layout_title">이전 동영상 화질 설정 활성화하기</string>
     <string name="revanced_enable_open_links_directly_summary_off">앱 내에서 외부 링크를 열 때 URL 리다이렉션(youtube.com/redirect)을 거치고 연결합니다.</string>
     <string name="revanced_enable_open_links_directly_summary_on">앱 내에서 외부 링크를 열 때 URL 리다이렉션(youtube.com/redirect)을 거치지 않고 다이렉트로 연결합니다.</string>
     <string name="revanced_enable_open_links_directly_title">리다이렉션 없이 링크 바로 열기</string>
@@ -280,8 +280,8 @@
     <string name="revanced_hide_end_screen_overlay_summary_off">추천 동영상 오버레이가 노출됩니다.</string>
     <string name="revanced_hide_end_screen_overlay_summary_on">추천 동영상 오버레이가 숨겨집니다.</string>
     <string name="revanced_hide_end_screen_overlay_title">추천 동영상 오버레이 숨기기</string>
-    <string name="revanced_hide_expandable_chip_summary_off">다음 정보들이 노출됩니다:\n동영상 설명, 챕터, 주요 순간, 스크립트, 재생목록의 동영상</string>
-    <string name="revanced_hide_expandable_chip_summary_on">다음 정보들이 숨겨집니다:\n동영상 설명, 챕터, 주요 순간, 스크립트, 재생목록의 동영상</string>
+    <string name="revanced_hide_expandable_chip_summary_off">다음 정보들이 노출됩니다:\n동영상 설명, 챕터, 주요 순간, 스크립트,\n재생목록의 동영상, 이 동영상에 나온 제품</string>
+    <string name="revanced_hide_expandable_chip_summary_on">다음 정보들이 숨겨집니다:\n동영상 설명, 챕터, 주요 순간, 스크립트,\n재생목록의 동영상, 이 동영상에 나온 제품</string>
     <string name="revanced_hide_expandable_chip_title">썸네일 하단 동영상 관련 정보 숨기기</string>
     <string name="revanced_hide_feed_flyout_panel_filter_strings_title">피드 구성요소 관련 메뉴 필터 편집하기</string>
     <string name="revanced_hide_feed_flyout_panel_summary_off">피드 구성요소 관련 메뉴가 노출됩니다.</string>
@@ -463,9 +463,9 @@ YouTube 18.24.37 버전 이상에서만 적용 가능합니다."</string>
     <string name="revanced_hide_shorts_player_subscriptions_button_summary_off">구독 버튼이 노출됩니다.</string>
     <string name="revanced_hide_shorts_player_subscriptions_button_summary_on">구독 버튼이 숨겨집니다.</string>
     <string name="revanced_hide_shorts_player_subscriptions_button_title">구독 버튼 숨기기</string>
-    <string name="revanced_hide_shorts_player_pivot_button_summary_off">오리지널 사운드 버튼이 노출됩니다.</string>
-    <string name="revanced_hide_shorts_player_pivot_button_summary_on">오리지널 사운드 버튼이 숨겨집니다.</string>
-    <string name="revanced_hide_shorts_player_pivot_button_title">오리지널 사운드 버튼 숨기기</string>
+    <string name="revanced_hide_shorts_player_pivot_button_summary_off">사운드 버튼이 노출됩니다.</string>
+    <string name="revanced_hide_shorts_player_pivot_button_summary_on">사운드 버튼이 숨겨집니다.</string>
+    <string name="revanced_hide_shorts_player_pivot_button_title">사운드 버튼 숨기기</string>
     <string name="revanced_hide_shorts_player_toolbar_summary_off">오른쪽 상단 도구 모음이 노출됩니다.</string>
     <string name="revanced_hide_shorts_player_toolbar_summary_on">오른쪽 상단 도구 모음이 숨겨집니다</string>
     <string name="revanced_hide_shorts_player_toolbar_title">도구 모음 숨기기</string>
@@ -487,7 +487,7 @@ YouTube 18.24.37 버전 이상에서만 적용 가능합니다."</string>
     <string name="revanced_hide_suggestions_shelf_summary">"다음 선반이 숨겨집니다.
 - 주요 뉴스
 - 이어서 시청하기
-- 더 많은 채널 살펴보기
+- 채널 더보기
 - 쇼핑
 - 다시 시청하기
 - 보건 정보 출처"</string>
@@ -503,7 +503,7 @@ YouTube 18.24.37 버전 이상에서만 적용 가능합니다."</string>
     <string name="revanced_hide_timed_reactions_title">실시간 이모티콘 리액션 숨기기</string>
     <string name="revanced_hide_reminder_button_summary_off">게시 예정 동영상의 썸네일 하단에 표시되는 알림 받기 버튼이 노출됩니다.</string>
     <string name="revanced_hide_reminder_button_summary_on">게시 예정 동영상의 썸네일 하단에 표시되는 알림 받기 버튼이 숨겨집니다.</string>
-    <string name="revanced_hide_reminder_button_title">알림 받기 버튼 숨기기</string>
+    <string name="revanced_hide_reminder_button_title">피드에서 알림 받기 버튼 숨기기</string>
     <string name="revanced_hide_time_stamp_summary_off">타임스탬프가 노출됩니다.</string>
     <string name="revanced_hide_time_stamp_summary_on">타임스탬프가 숨겨집니다.</string>
     <string name="revanced_hide_time_stamp_title">타임스탬프 숨기기</string>
@@ -598,10 +598,10 @@ YouTube 18.24.37 버전 이상에서만 적용 가능합니다."</string>
     <string name="revanced_reboot_warning_vp9">"기기 정보를 변경하여 VP9 코덱을 활성화합니다.
 
 이 설정은 상당히 오래되어 유효하지 않을 수 있습니다."</string>
-    <string name="revanced_ryd_attribution_summary">싫어요 숫자의 데이터는 Return YouTube Dislike API에 의해 제공됩니다. 자세한 내용을 보려면 누르세요.</string>
-    <string name="revanced_ryd_compact_layout_summary_off">싫어요 버튼 왼쪽에 구분선을 표시합니다.</string>
-    <string name="revanced_ryd_compact_layout_summary_on">싫어요 버튼 왼쪽에 구분선을 표시하지 않습니다.</string>
-    <string name="revanced_ryd_compact_layout_title">싫어요 버튼 왼쪽에 구분선 숨기기</string>
+    <string name="revanced_ryd_attribution_summary">싫어요 개수의 데이터는 Return YouTube Dislike API에 의해 제공됩니다. 자세한 내용을 보려면 누르세요.</string>
+    <string name="revanced_ryd_compact_layout_summary_off">좋아요 버튼에 구분선을 표시합니다.</string>
+    <string name="revanced_ryd_compact_layout_summary_on">좋아요 버튼에 구분선을 표시하지 않습니다.</string>
+    <string name="revanced_ryd_compact_layout_title">좋아요 버튼에 구분선 숨기기</string>
     <string name="revanced_ryd_dislike_percentage_summary_off">싫어요 개수를 숫자로 표시합니다.</string>
     <string name="revanced_ryd_dislike_percentage_summary_on">싫어요 개수를 퍼센트로 표시합니다.</string>
     <string name="revanced_ryd_dislike_percentage_title">싫어요 개수를 퍼센트로 표시하기</string>
@@ -624,7 +624,7 @@ YouTube 18.24.37 버전 이상에서만 적용 가능합니다."</string>
     <string name="revanced_show_fullscreen_title_title">전체화면 제목 표시하기</string>
     <string name="revanced_alt_thumbnails_preference_screen_title">대체 썸네일</string>
     <string name="revanced_alt_thumbnail_title">동영상 스크린샷 썸네일 활성화하기</string>
-    <string name="revanced_alt_thumbnail_summary_on">동영상 스크린샷 썸네일을 표시합니다.</string>
+    <string name="revanced_alt_thumbnail_summary_on">동영상 스크린샷 썸네일(대체 썸네일)을 표시합니다.</string>
     <string name="revanced_alt_thumbnail_summary_off">클릭 유도 문안 썸네일(원본 썸네일)을 표시합니다.</string>
     <string name="revanced_alt_thumbnail_type_title">동영상 스크린샷 썸네일 이미지</string>
     <string name="revanced_alt_thumbnail_type_entry_1">동영상의 첫 부분 이미지</string>
@@ -635,7 +635,7 @@ YouTube 18.24.37 버전 이상에서만 적용 가능합니다."</string>
     <string name="revanced_alt_thumbnail_fast_quality_summary_off">고화질 동영상 스크린샷 썸네일을 사용합니다. 지연시간이 길어질 수 있습니다.</string>
     <string name="revanced_alt_thumbnail_about_title">정보</string>
     <string name="revanced_alt_thumbnail_about_summary">동영상 스크린샷 썸네일은 동영상의 첫/중간/마지막 부분에서 캡쳐된 이미지를 썸네일로 사용합니다. 이 이미지는 YouTube에 내장되어 있으므로 외부 API는 사용되지 않습니다.</string>
-    <string name="revanced_alt_thumbnails_preference_screen_summary">썸네일을 클릭 유도 문안 썸네일(원본 썸네일)이 아닌 동영상 스크린샷 썸네일로 표시할 수 있습니다.</string>
+    <string name="revanced_alt_thumbnails_preference_screen_summary">썸네일을 클릭 유도 문안 썸네일(원본 썸네일)이 아닌 동영상 스크린샷 썸네일(대체 썸네일)로 표시할 수 있습니다.</string>
     <string name="revanced_sponsorblock_settings_summary">SponsorBlock 관련 설정입니다.</string>
     <string name="revanced_spoof_app_version_summary">"서버에 연결할때 사용되는 앱 버전을 지정하여 앱 레이아웃을 변경합니다.
 
@@ -652,8 +652,8 @@ YouTube 18.24.37 버전 이상에서만 적용 가능합니다."</string>
     <string name="revanced_spoof_player_parameter_type_summary_off">"Shorts의 플레이어 매개변수로 변경합니다.
 
 알려진 문제점
-- 동영상 시간 1:10부터 동영상 재생 문제가 발생할 수 있습니다.
-- 실시간 스트리밍 시청 시 동영상 재생 문제가 발생할 수 있습니다.
+- 동영상 시간 1:10부터 정상적으로 재생되지 않습니다.
+- 실시간 스트리밍이 정상적으로 재생되지 않습니다.
 - 채널 워터마크가 항상 숨겨집니다.
 - 오프라인 저장이 작동하지 않을 수 있습니다.
 - 최종 화면 카드가 항상 숨겨집니다."</string>
@@ -664,7 +664,7 @@ YouTube 18.24.37 버전 이상에서만 적용 가능합니다."</string>
 - 클립이 정상적으로 재생되지 않습니다.
 - 오프라인 저장이 작동하지 않을 수 있습니다.
 - 필름 스트립 오버레이가 항상 숨겨집니다.
-- 재생바 썸네일이 숨겨집니다."</string>
+- 재생바 미리보기 썸네일이 숨겨집니다."</string>
     <string name="revanced_spoof_player_parameter_type_title">변경할 플레이어 매개변수 설정</string>
     <string name="revanced_spoof_player_parameter_summary">플레이어 매개변수를 변경하여 재생 문제를 방지합니다.</string>
     <string name="revanced_spoof_player_parameter_title">플레이어 매개변수 변경하기</string>

@@ -8,7 +8,6 @@ import app.revanced.patcher.extensions.InstructionExtensions.getInstruction
 import app.revanced.patcher.fingerprint.method.impl.MethodFingerprint
 import app.revanced.patcher.patch.BytecodePatch
 import app.revanced.patcher.patch.annotations.DependsOn
-import app.revanced.patcher.patch.PatchException
 import app.revanced.patches.youtube.utils.fingerprints.OnBackPressedFingerprint
 import app.revanced.patches.youtube.utils.litho.patch.LithoFilterPatch
 import app.revanced.patches.youtube.utils.navbarindex.fingerprints.NavBarBuilderFingerprint
@@ -80,7 +79,8 @@ class NavBarIndexHookPatch : BytecodePatch(
 
         LithoFilterPatch.addFilter("$PATCHES_PATH/ads/NavBarIndexFilter;")
 
-        context.injectInit("NavBarIndexPatch", "initializeIndex")
+        context.injectInit("NavBarIndexPatch", "initializeIndex", true)
+
     }
 
     companion object {
@@ -97,7 +97,7 @@ class NavBarIndexHookPatch : BytecodePatch(
                         """
                     )
                 }
-            } ?: throw PatchException("Could not find target fingerprint.")
+            } ?: throw exception
         }
     }
 }

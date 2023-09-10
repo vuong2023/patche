@@ -17,7 +17,7 @@
     <string name="revanced_change_homepage_title">Ubah beranda menjadi subscription</string>
     <string name="revanced_comments_title">Komentar</string>
     <string name="revanced_copy_video_timestamp_success">Stempel waktu disalin ke papan klip</string>
-    <string name="revanced_custom_filter_strings_summary">Memfilter komponen dengan nama yang dipisahkan garis</string>
+    <string name="revanced_custom_filter_strings_summary">Filter component names by line-seperated</string>
     <string name="revanced_custom_filter_strings_title">Edit filter kustom</string>
     <string name="revanced_custom_filter_summary_off">Filter kustom dinonaktifkan</string>
     <string name="revanced_custom_filter_summary_on">Filter kustom diaktifkan</string>
@@ -502,7 +502,7 @@ Known issue: Autoplay does not work"</string>
     <string name="revanced_hide_timed_reactions_title">Sembunyikan reaksi berjangka waktu</string>
     <string name="revanced_hide_reminder_button_summary_off">Notify me buttons are shown</string>
     <string name="revanced_hide_reminder_button_summary_on">Notify me buttons are hidden</string>
-    <string name="revanced_hide_reminder_button_title">Hide notify me button</string>
+    <string name="revanced_hide_reminder_button_title">Hide notify me button in feed</string>
     <string name="revanced_hide_time_stamp_summary_off">Stempel waktu ditampilkan</string>
     <string name="revanced_hide_time_stamp_summary_on">Stempel waktu disembunyikan</string>
     <string name="revanced_hide_time_stamp_title">Sembunyikan stempel waktu</string>

@@ -17,7 +17,7 @@
     <string name="revanced_change_homepage_title">Змінити домашню сторінку на підписки</string>
     <string name="revanced_comments_title">Коментарі</string>
     <string name="revanced_copy_video_timestamp_success">Мітку часу скопійовано в буфер обміну</string>
-    <string name="revanced_custom_filter_strings_summary">Фільтр компонентів за іменами, розділеними по рядках</string>
+    <string name="revanced_custom_filter_strings_summary">Фільтр компонентів за назвами розділеними рядками</string>
     <string name="revanced_custom_filter_strings_title">Редагувати користувацький фільтр</string>
     <string name="revanced_custom_filter_summary_off">Користувацький фільтр вимкнено</string>
     <string name="revanced_custom_filter_summary_on">Користувацький фільтр увімкнено</string>
@@ -655,23 +655,16 @@
 - Водяний знак каналу завжди приховано
 - Завантаження відео може не працювати
 - Кінцеві картки екрану завжди приховано"</string>
-    <string name="revanced_spoof_player_parameter_type_summary_on">"Параметри плеєра режиму інкогніто
+    <string name="revanced_spoof_player_parameter_type_summary_on">"Параметри плеєра анонімного режиму
 
 Відомі проблеми
-- Фонова підсвітка може не працювати
+- Мініатюри панелі прогресу приховано
+- Кінематографічне освітлення може не працювати
 - Кліп не може нормально відтворюватися
 - Завантаження відео може не працювати
-- Покадрову перемотку завжди приховано
-- Мініатюри панелі прогресу приховано"</string>
+- Покадрову перемотку завжди приховано"</string>
     <string name="revanced_spoof_player_parameter_type_title">Підробити тип параметру плеєра</string>
-    <string name="revanced_spoof_player_parameter_summary">Підроблення параметрів плеєра для виправлення проблем відтворення
-
-Відомі проблеми
-- Фонова підсвітка може не працювати
-- Кліп не може нормально відтворюватися
-- Завантаження відео може не працювати
-- Покадрову перемотку завжди приховано
-- Мініатюри панелі прогресу приховано</string>
+    <string name="revanced_spoof_player_parameter_summary">Підроблення параметрів плеєра для виправлення проблем відтворення</string>
     <string name="revanced_spoof_player_parameter_title">Підробити параметр плеєра</string>
     <string name="revanced_swipe_controls">Керування жестами</string>
     <string name="revanced_swipe_magnitude_threshold_summary">Мінімальна амплітуда руху, що розпізнається як жест</string>

@@ -17,7 +17,7 @@
     <string name="revanced_change_homepage_title">প্রধান পাতা সাবস্ক্রিপশনে পরিবর্তন করুন</string>
     <string name="revanced_comments_title">মন্তব্য</string>
     <string name="revanced_copy_video_timestamp_success">টাইম স্ট্যাম্প ক্লিপবোর্ডে কপি হয়েছে</string>
-    <string name="revanced_custom_filter_strings_summary">লাইনের মাধ্যমে নামগুলি দ্বারা উপাদানসমূহ ফিল্টার করুন</string>
+    <string name="revanced_custom_filter_strings_summary">Filter component names by line-seperated</string>
     <string name="revanced_custom_filter_strings_title">কাস্টম ফিল্টার সম্পাদনা করুন</string>
     <string name="revanced_custom_filter_summary_off">কাস্টম ফিল্টার নিস্ক্রিয় আছে</string>
     <string name="revanced_custom_filter_summary_on">কাস্টম ফিল্টার সক্রিয় আছে</string>
@@ -502,7 +502,7 @@
     <string name="revanced_hide_timed_reactions_title">সময় অনুযায়ী প্রতিক্রিয়া লুকান</string>
     <string name="revanced_hide_reminder_button_summary_off">আমাকে জানান বাটন প্রদর্শিত হয়েছে</string>
     <string name="revanced_hide_reminder_button_summary_on">আমাকে জানান বাটন লুকিয়ে রয়েছে</string>
-    <string name="revanced_hide_reminder_button_title">আমাকে জানান বাটন লুকান</string>
+    <string name="revanced_hide_reminder_button_title">Hide notify me button in feed</string>
     <string name="revanced_hide_time_stamp_summary_off">টাইম স্ট্যাম্প প্রদর্শিত হয়েছে</string>
     <string name="revanced_hide_time_stamp_summary_on">টাইম স্ট্যাম্প লুকিয়ে রয়েছে</string>
     <string name="revanced_hide_time_stamp_title">টাইম স্ট্যাম্প লুকান</string>
@@ -528,13 +528,13 @@
     <string name="revanced_whitelisting_remove_failed" formatted="false">%s চ্যানেলটি %s হোয়াইটলিস্ট থেকে বাদ দিতে ব্যর্থ হয়েছে</string>
     <string name="revanced_whitelisting_settings_summary">হোয়াইটলিস্টে যুক্ত হোয়া চ্যানেল তালিকা চেক করুন বা বাদ দিন</string>
     <string name="revanced_whitelisting_settings_title">হোয়াইটলিস্ট সেটিং</string>
-    <string name="revanced_whitelisting_speed">Playback Speed</string>
+    <string name="revanced_whitelisting_speed">প্লেব্যাক স্পিড</string>
     <string name="revanced_whitelisting_speed_button">গতি</string>
     <string name="revanced_whitelisting_sponsorblock">SponsorBlock</string>
     <string name="revanced_whitelisting_sponsorblock_button">SB</string>
     <string name="revanced_whitelisting_title">চ্যানেল হোয়াইটলিস্ট</string>
-    <string name="revanced_whitelist_api_key_title">YouTube API Key</string>
-    <string name="revanced_whitelist_api_key_summary">YouTube API Key v3 used by whitelist feature</string>
+    <string name="revanced_whitelist_api_key_title">YouTube API key</string>
+    <string name="revanced_whitelist_api_key_summary">হোয়াইটলিস্ট ফিচারে YouTube API Key v3 ব্যবহার করা হয়েছে</string>
     <string name="revanced_hide_view_products_summary_off">পণ্য দেখার ব্যানার প্রদর্শিত হয়েছে</string>
     <string name="revanced_hide_view_products_summary_on">পণ্য দেখার ব্যানার লুকিয়ে রয়েছে</string>
     <string name="revanced_hide_view_products_title">প্রোডাক্ট দেখুন ব্যানার লুকান</string>
@@ -623,7 +623,7 @@
     <string name="revanced_show_fullscreen_title_title">ফুলস্ক্রিণ টাইটেল দেখান</string>
     <string name="revanced_alt_thumbnails_preference_screen_title">বিকল্প থাম্বনেইল</string>
     <string name="revanced_alt_thumbnail_title">বিকল্প থাম্বনেইল সক্রিয় করুন</string>
-    <string name="revanced_alt_thumbnail_summary_on">YouTube thumbnails replaced with alternative ones</string>
+    <string name="revanced_alt_thumbnail_summary_on">YouTube এর থাম্বনেইল ভিন্ন থাম্বনেইল দ্বারা প্রতিস্থাপন করা হবে</string>
     <string name="revanced_alt_thumbnail_summary_off">মূল YouTube থাম্বনেইল প্রদর্শিত হচ্ছে</string>
     <string name="revanced_alt_thumbnail_type_title">ভিডিওর যে সময় থেকে স্থিরচিত্র নেয়া হবে</string>
     <string name="revanced_alt_thumbnail_type_entry_1">ভিডিওর শুরুর অংশ</string>

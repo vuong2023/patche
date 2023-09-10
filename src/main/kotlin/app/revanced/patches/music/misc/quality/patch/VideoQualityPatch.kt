@@ -1,10 +1,9 @@
 package app.revanced.patches.music.misc.quality.patch
 
-import app.revanced.extensions.findMutableMethodOf
 import app.revanced.extensions.exception
+import app.revanced.extensions.findMutableMethodOf
 import app.revanced.patcher.annotation.Description
 import app.revanced.patcher.annotation.Name
-
 import app.revanced.patcher.data.BytecodeContext
 import app.revanced.patcher.extensions.InstructionExtensions.addInstruction
 import app.revanced.patcher.extensions.InstructionExtensions.addInstructions
@@ -40,7 +39,6 @@ import com.android.tools.smali.dexlib2.iface.reference.Reference
     ]
 )
 @MusicCompatibility
-
 class VideoQualityPatch : BytecodePatch(
     listOf(
         MusicVideoQualitySettingsParentFingerprint,
@@ -74,9 +72,12 @@ class VideoQualityPatch : BytecodePatch(
                                 for (qualityReferenceIndex in index downTo 0) {
                                     if (getInstruction(qualityReferenceIndex).opcode != Opcode.IGET_OBJECT) continue
 
-                                    val targetReference = getInstruction<ReferenceInstruction>(qualityReferenceIndex).reference
+                                    val targetReference =
+                                        getInstruction<ReferenceInstruction>(qualityReferenceIndex).reference
 
-                                    if (!targetReference.toString().endsWith(qIndexMethodClass)) continue
+                                    if (!targetReference.toString()
+                                            .endsWith(qIndexMethodClass)
+                                    ) continue
 
                                     qualityReference = targetReference
                                     break
@@ -117,6 +118,7 @@ class VideoQualityPatch : BytecodePatch(
             "revanced_enable_save_video_quality",
             "true"
         )
+
     }
 
     private companion object {

@@ -8,7 +8,6 @@ import app.revanced.patcher.extensions.InstructionExtensions.getInstruction
 import app.revanced.patcher.extensions.InstructionExtensions.replaceInstruction
 import app.revanced.patcher.fingerprint.method.impl.MethodFingerprint.Companion.resolve
 import app.revanced.patcher.patch.BytecodePatch
-import app.revanced.util.bytecode.BytecodeHelper.updatePatchStatus
 import app.revanced.patcher.patch.annotations.DependsOn
 import app.revanced.patcher.util.proxy.mutableTypes.MutableMethod
 import app.revanced.patches.youtube.utils.fingerprints.SeekbarFingerprint
@@ -223,8 +222,8 @@ class SponsorBlockBytecodePatch : BytecodePatch(
          */
         VideoIdWithoutShortsPatch.injectCall("$INTEGRATIONS_PLAYER_CONTROLLER_CLASS_DESCRIPTOR->setCurrentVideoId(Ljava/lang/String;)V")
 
-        context.injectInit("FirstRun", "initializationSB")
-        context.updatePatchStatus("SponsorBlock")
+        context.injectInit("FirstRun", "initializationSB", true)
+
     }
 
     internal companion object {

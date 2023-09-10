@@ -14,10 +14,10 @@
     <string name="revanced_bypass_ambient_mode_restrictions_title">Ambiyans modu kısıtlamalarını atlayın</string>
     <string name="revanced_change_homepage_summary_off">Varsayılan ana ekran: Ana sayfa</string>
     <string name="revanced_change_homepage_summary_on">Varsayılan ana ekran: Abonelikler</string>
-    <string name="revanced_change_homepage_title">Ana sayfayı abonelik akışına değiştir</string>
+    <string name="revanced_change_homepage_title">Uygulamayı açtığınızda Abonelikler sayfasında başlayın</string>
     <string name="revanced_comments_title">Yorumlar</string>
     <string name="revanced_copy_video_timestamp_success">Zaman damgası panoya kopyalandı</string>
-    <string name="revanced_custom_filter_strings_summary">Bileşenleri satırlara ayrılmış isimlere göre filtreleyin</string>
+    <string name="revanced_custom_filter_strings_summary">Bileşen isimlerini satırla ayrılmış isimlere göre filtreleyin</string>
     <string name="revanced_custom_filter_strings_title">Özel filtreyi düzenle</string>
     <string name="revanced_custom_filter_summary_off">Kapalı</string>
     <string name="revanced_custom_filter_summary_on">Açık</string>
@@ -654,12 +654,12 @@ Bilinen sorunlar
 - Bitiş ekranı kartları her zaman gizlidir"</string>
     <string name="revanced_spoof_player_parameter_type_summary_on">"Gizli modun oynatıcı parametreleri
 
-Bilinen sorunlar
-- Ambiyans modu çalışmayabilir
-- Klip normal şekilde oynatılamaz
-- Videoları indirmek çalışmayabilir
-- Film şeridi yerleşimi her zaman gizlidir
-- Zaman çubuğu küçük resimleri gizlidir"</string>
+ Bilinen Sorunlar
+ - Zaman çubuğu küçük resimleri gizlidir
+ - Ambiyans modu çalışmayabilir
+ - Klip normal şekilde oynatılamıyor
+ - Videoların indirilmesi çalışmayabilir
+ - Film şeridi kaplaması her zaman gizlidir"</string>
     <string name="revanced_spoof_player_parameter_type_title">Sahte oynatıcı parametresi tipi</string>
     <string name="revanced_spoof_player_parameter_summary">Oynatma sorunlarını önlemek için oynatıcı parametrelerini taklit eder
 

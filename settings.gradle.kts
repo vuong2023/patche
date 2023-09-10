@@ -1,1 +1,1 @@
-rootProject.name = "ReX-patches"
+rootProject.name = "revanced-patches"

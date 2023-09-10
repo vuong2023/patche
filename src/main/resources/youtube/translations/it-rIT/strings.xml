@@ -17,7 +17,7 @@
     <string name="revanced_change_homepage_title">Cambia la pagina iniziale</string>
     <string name="revanced_comments_title">Commenti</string>
     <string name="revanced_copy_video_timestamp_success">Marca temporale copiato negli appunti</string>
-    <string name="revanced_custom_filter_strings_summary">Filtra i componenti per nomi separati da virgole</string>
+    <string name="revanced_custom_filter_strings_summary">Filter component names by line-seperated</string>
     <string name="revanced_custom_filter_strings_title">Modifica il filtro personalizzato</string>
     <string name="revanced_custom_filter_summary_off">Il filtro personalizzato è disattivato</string>
     <string name="revanced_custom_filter_summary_on">Il filtro personalizzato è attivato</string>
@@ -503,7 +503,7 @@ Problema noto: la riproduzione automatica non funziona"</string>
     <string name="revanced_hide_timed_reactions_title">Nascondi le reazioni temporizzate</string>
     <string name="revanced_hide_reminder_button_summary_off">Il pulsante Avvisami è visibile</string>
     <string name="revanced_hide_reminder_button_summary_on">Il pulsante Avvisami è nascosto</string>
-    <string name="revanced_hide_reminder_button_title">Nascondi il pulsante Avvisami nel feed delle iscrizioni</string>
+    <string name="revanced_hide_reminder_button_title">Nascondi il pulsante Avvisami nel feed</string>
     <string name="revanced_hide_time_stamp_summary_off">La marca temporale è visibile</string>
     <string name="revanced_hide_time_stamp_summary_on">La marca temporale è nascosta</string>
     <string name="revanced_hide_time_stamp_title">Nascondi la marca temporale</string>
@@ -653,17 +653,17 @@ Se verrà disattivato in seguito, la vecchia interfaccia potrebbe rimanere fino 
 
 Problemi noti:
 - I video potrebbero avere problemi di riproduzione a 1:10
-- Il watermark del canale è sempre nascosto
+- Il watermark del canale è nascosto
 - Il download dei video potrebbe non funzionare
-- Le schede finali sono sempre nascoste"</string>
-    <string name="revanced_spoof_player_parameter_type_summary_on">"Simula i parametri del riproduttore della navigazione in incognito.
+- Le schede finali sono nascoste"</string>
+    <string name="revanced_spoof_player_parameter_type_summary_on">"Simula i parametri del riproduttore in navigazione in incognito.
 
- Problemi noti:
- - La Modalità Ambient potrebbe non funzionare
- - Le clip non possono essere riprodotti normalmente
- - Il download dei video potrebbe non funzionare
- - La sovrapposizione della pellicola è sempre nascosta
- - L'anteprima degli thumbnails della barra di avanzamento è sempre nascosta"</string>
+Problemi noti:
+- Gli thumbnails della barra di avanzamento sono nascosti
+- La Modalità Ambient potrebbe non funzionare
+- I clip non possono essere riprodotti normalmente
+- Il download dei video potrebbe non funzionare
+- La sovrapposizione della pellicola è nascosta"</string>
     <string name="revanced_spoof_player_parameter_type_title">Simula il tipo di parametri del riproduttore</string>
     <string name="revanced_spoof_player_parameter_summary">Simula il riproduttore per prevenire problemi di riproduzione.
 

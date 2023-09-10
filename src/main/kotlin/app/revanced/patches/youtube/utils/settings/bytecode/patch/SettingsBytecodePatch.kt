@@ -43,7 +43,8 @@ class SettingsBytecodePatch : BytecodePatch(
             }
         } ?: throw ThemeSetterSystemFingerprint.exception
 
-        context.injectInit("FirstRun", "initializationRVX")
+        context.injectInit("FirstRun", "initializationRVX", true)
+
     }
 
     companion object {

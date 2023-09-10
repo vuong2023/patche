@@ -17,7 +17,7 @@
     <string name="revanced_change_homepage_title">Altere a página inicial para inscrições</string>
     <string name="revanced_comments_title">Comentários</string>
     <string name="revanced_copy_video_timestamp_success">Marcador copiado para área de transferência</string>
-    <string name="revanced_custom_filter_strings_summary">Filtrar o nome dos componentes por vírgula</string>
+    <string name="revanced_custom_filter_strings_summary">Filtrar nomes de componentes separado por linha</string>
     <string name="revanced_custom_filter_strings_title">Editar filtro personalizado</string>
     <string name="revanced_custom_filter_summary_off">Filtro personalizado está desativado</string>
     <string name="revanced_custom_filter_summary_on">Filtro personalizado está ativado</string>
@@ -502,7 +502,7 @@ Problema conhecido: A reprodução automática não funciona"</string>
     <string name="revanced_hide_timed_reactions_title">Ocultar reações temporizadas</string>
     <string name="revanced_hide_reminder_button_summary_off">Botões de notificação serão exibidos</string>
     <string name="revanced_hide_reminder_button_summary_on">Botão de notificação está oculto</string>
-    <string name="revanced_hide_reminder_button_title">Ocultar o botão de notificação</string>
+    <string name="revanced_hide_reminder_button_title">Ocultar o botão de notificação no feed</string>
     <string name="revanced_hide_time_stamp_summary_off">A marcação de tempo será mostrada</string>
     <string name="revanced_hide_time_stamp_summary_on">A marcação de tempo está oculta</string>
     <string name="revanced_hide_time_stamp_title">Ocultar marcação de tempo</string>
@@ -528,13 +528,13 @@ Problema conhecido: A reprodução automática não funciona"</string>
     <string name="revanced_whitelisting_remove_failed" formatted="false">Não foi possível remover o canal %s da lista branca %s</string>
     <string name="revanced_whitelisting_settings_summary">Verifique ou remova canais adicionados à lista branca</string>
     <string name="revanced_whitelisting_settings_title">Configurações da lista branca</string>
-    <string name="revanced_whitelisting_speed">Playback Speed</string>
+    <string name="revanced_whitelisting_speed">Velocidade de reprodução</string>
     <string name="revanced_whitelisting_speed_button">Velocidade</string>
     <string name="revanced_whitelisting_sponsorblock">SponsorBlock</string>
     <string name="revanced_whitelisting_sponsorblock_button">SB</string>
     <string name="revanced_whitelisting_title">Lista branca de canais</string>
-    <string name="revanced_whitelist_api_key_title">YouTube API Key</string>
-    <string name="revanced_whitelist_api_key_summary">YouTube API Key v3 used by whitelist feature</string>
+    <string name="revanced_whitelist_api_key_title">Chave de API do Youtube</string>
+    <string name="revanced_whitelist_api_key_summary">Chave API do YouTube v3 usada pela lista branca</string>
     <string name="revanced_hide_view_products_summary_off">O banner de produtos será mostrado</string>
     <string name="revanced_hide_view_products_summary_on">O banner de produtos está oculto</string>
     <string name="revanced_hide_view_products_title">Ocultar visualização de banner de produtos</string>
@@ -623,7 +623,7 @@ Como essas configurações estão bastante desatualizadas, podem não ser válid
     <string name="revanced_show_fullscreen_title_title">Mostrar título em tela cheia</string>
     <string name="revanced_alt_thumbnails_preference_screen_title">Miniaturas alternativas</string>
     <string name="revanced_alt_thumbnail_title">Ativar miniaturas alternativas</string>
-    <string name="revanced_alt_thumbnail_summary_on">YouTube thumbnails replaced with alternative ones</string>
+    <string name="revanced_alt_thumbnail_summary_on">Miniaturas do YouTube substituídas por miniaturas alternativas</string>
     <string name="revanced_alt_thumbnail_summary_off">Miniaturas originais do YouTube exibidas</string>
     <string name="revanced_alt_thumbnail_type_title">Hora do vídeo para tirar a foto</string>
     <string name="revanced_alt_thumbnail_type_entry_1">Início do vídeo</string>

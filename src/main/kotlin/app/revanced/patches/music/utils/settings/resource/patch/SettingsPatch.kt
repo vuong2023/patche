@@ -2,48 +2,41 @@ package app.revanced.patches.music.utils.settings.resource.patch
 
 import app.revanced.patcher.annotation.Description
 import app.revanced.patcher.annotation.Name
-
 import app.revanced.patcher.data.ResourceContext
-
 import app.revanced.patcher.patch.annotations.DependsOn
 import app.revanced.patcher.patch.annotations.Patch
 import app.revanced.patches.music.utils.annotations.MusicCompatibility
-import app.revanced.patches.music.utils.fix.decoding.patch.DecodingPatch
 import app.revanced.patches.music.utils.settings.bytecode.patch.SettingsBytecodePatch
 import app.revanced.patches.shared.patch.settings.AbstractSettingsResourcePatch
 import app.revanced.util.enum.CategoryType
 import app.revanced.util.resources.IconHelper
 import app.revanced.util.resources.IconHelper.copyFiles
 import app.revanced.util.resources.IconHelper.makeDirectoryAndCopyFiles
+import app.revanced.util.resources.MusicResourceHelper.YOUTUBE_MUSIC_SETTINGS_KEY
 import app.revanced.util.resources.MusicResourceHelper.addMusicPreference
 import app.revanced.util.resources.MusicResourceHelper.addMusicPreferenceCategory
 import app.revanced.util.resources.MusicResourceHelper.addMusicPreferenceWithIntent
+import app.revanced.util.resources.MusicResourceHelper.addMusicPreferenceWithoutSummary
 import app.revanced.util.resources.MusicResourceHelper.addReVancedMusicPreference
 import app.revanced.util.resources.MusicResourceHelper.sortMusicPreferenceCategory
 import app.revanced.util.resources.ResourceUtils
 import app.revanced.util.resources.ResourceUtils.copyResources
 import org.w3c.dom.Element
+import java.io.Closeable
 import java.io.File
 import java.nio.file.Paths
 
 @Patch
 @Name("Settings")
 @Description("Adds settings for ReVanced to YouTube Music.")
-@DependsOn(
-    [
-        DecodingPatch::class,
-        SettingsBytecodePatch::class
-    ]
-)
+@DependsOn([SettingsBytecodePatch::class])
 @MusicCompatibility
-
 class SettingsPatch : AbstractSettingsResourcePatch(
     "music/settings",
     "music/settings/host",
     false
-) {
+), Closeable {
     override fun execute(context: ResourceContext) {
-        super.execute(context)
         contexts = context
 
         /**
@@ -59,6 +52,23 @@ class SettingsPatch : AbstractSettingsResourcePatch(
         ).forEach { resourceGroup ->
             context.copyResources("music/settings", resourceGroup)
         }
+
+        /**
+         * hide divider
+         */
+        val styleFile = context["res/values/styles.xml"]
+
+        styleFile.writeText(
+            styleFile.readText()
+                .replace(
+                    "allowDividerAbove\">true",
+                    "allowDividerAbove\">false"
+                ).replace(
+                    "allowDividerBelow\">true",
+                    "allowDividerBelow\">false"
+                )
+        )
+
 
         /**
          * Copy colors
@@ -77,7 +87,7 @@ class SettingsPatch : AbstractSettingsResourcePatch(
             }
         }
 
-        context.addReVancedMusicPreference()
+        context.addReVancedMusicPreference(YOUTUBE_MUSIC_SETTINGS_KEY)
 
         /**
          * If a custom branding icon path exists, merge it
@@ -108,6 +118,9 @@ class SettingsPatch : AbstractSettingsResourcePatch(
                 .map(::createGroup)
                 .let(::copyResources)
         }
+
+        super.execute(context)
+
     }
 
     companion object {
@@ -121,19 +134,32 @@ class SettingsPatch : AbstractSettingsResourcePatch(
             val categoryValue = category.value
             contexts.addMusicPreferenceCategory(categoryValue)
             contexts.addMusicPreference(categoryValue, key, defaultValue)
-            contexts.sortMusicPreferenceCategory(categoryValue)
+        }
+
+        internal fun addMusicPreferenceWithoutSummary(
+            category: CategoryType,
+            key: String,
+            defaultValue: String
+        ) {
+            val categoryValue = category.value
+            contexts.addMusicPreferenceCategory(categoryValue)
+            contexts.addMusicPreferenceWithoutSummary(categoryValue, key, defaultValue)
         }
 
         internal fun addMusicPreferenceWithIntent(
             category: CategoryType,
             key: String,
             dependencyKey: String
-
         ) {
             val categoryValue = category.value
             contexts.addMusicPreferenceCategory(categoryValue)
             contexts.addMusicPreferenceWithIntent(categoryValue, key, dependencyKey)
-            contexts.sortMusicPreferenceCategory(categoryValue)
+        }
+    }
+
+    override fun close() {
+        CategoryType.entries.sorted().forEach {
+            contexts.sortMusicPreferenceCategory(it.value)
         }
     }
 }
