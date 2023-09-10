@@ -1,3 +1,10 @@
+# 1.0.0 (2023-09-10)
+
+
+### Bug Fixes
+
+* app no name youtube src main ([17b53bf](https://github.com/vuong2023/patche/commit/17b53bf4e0d43be122b91c49409de065360d81dc))
+
 ## [2.190.1](https://github.com/vuong2023/ReX-patches/compare/v2.190.0...v2.190.1) (2023-09-10)
 
 
