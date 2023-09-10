@@ -1,4 +1,4 @@
-## 🧩 ReVanced Patches
+## 🧩 ReVanced Patches 2
 
 The official ReVanced Extended Patches.
 
