@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Translation Exception -->
+    <string name="revanced_extended_settings_title">ReVanced Extended</string>
+    <string name="revanced_ryd_enabled_title">@string/revanced_ryd_settings_title</string>
+    <string name="revanced_ryd_settings_title">Return YouTube Dislike</string>
+</resources>
